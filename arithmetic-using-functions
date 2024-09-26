@@ -1,0 +1,18 @@
+def arithmetic_operation(a,b):
+  add=a+b
+  sub=a-b
+  multiple=a*b
+  division=a/b
+  return add,sub,multiple,division
+num1=int(input("enter 1st value"))
+num2=int(input("enter 2nd value"))
+result= arithmetic_operation(num1,num2)
+print(result)
+for i in result:
+  print(i,end=' ')
+
+  #output
+  #enter 1st value:10
+  #enter 2nd value:5
+  #(15, 5, 50, 2.0)
+  # 15 5 50 2.0 
