@@ -1,0 +1,12 @@
+def gcd_function(a,b):
+    while b!=0:
+        a,b=b,a%b
+    return a
+num1=int(input("enter a value"))
+num2=int(input("enter b value"))
+print("result",gcd_function(num1,num2))
+
+#output
+#enter a value48
+#enter b value18
+#result 6
