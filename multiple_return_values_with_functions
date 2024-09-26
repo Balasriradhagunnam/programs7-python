@@ -1,0 +1,14 @@
+def multiple_returns(a, b):
+    sum_value = a + b
+    difference = a - b
+    product = a * b
+    return sum_value, difference, product
+#input_reading
+num1=int(input("enter 1st value:"))
+num2=int(input("enter 2nd value:"))
+print(multiple_returns(num1,num2))
+
+#output
+#enter 1st value:12
+#enter 2nd value:22
+(34, -10, 264)
