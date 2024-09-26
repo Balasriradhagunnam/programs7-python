@@ -1,0 +1,9 @@
+def largest_smallest(lst):
+    largest=max(lst)
+    smallest=min(lst)
+    return largest,smallest
+lst=[1,4,2,5,3]
+print(largest_smallest(lst))
+
+#ouput
+#(5, 1)
